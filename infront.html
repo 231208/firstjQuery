@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implimention jQuery</title>
+    <script src="/Implement/jQuery.js"></script>
+</head>
+<body>
+    <h1>Welcome jQuery Tutorials</h1>
+    <p>jQuery is a fast, small, cross-platform and feature-rich Javascript liabray. It si designed to simplify the client-side scripting of HTML. It makes things like HTML document traversal and manipulation, animiation, event-handling, and AJAX very simple with an easey-to-use API that works on a lot of different types of browsers. <br>
+    
+    The main purpose of jQuery is to provide an easy way to use Javascript on your website to make it more interactive and attractive. It is also used to add animiation. </p>
+
+    <b>jQuery feature</b><br>
+    <p><ul>
+        <li>Html manipulation</li>
+        <li>DOM manipulation</li>
+        <li>DOM element selection</li>
+        <li>CSS manipulation</li>
+        <li>Effect and animiation</li>
+        <li>Utilities</li>
+        <li>AJAX</li>
+        <li>HTML event methods</li>
+        <li>JSON Parsing</li>
+        <li>Extensibility through plug-ins</li>
+    </ul></p>
+
+    <p><b>Why jQuery Required</b>
+    <br>
+        <ul>
+            <li>It is very fast and extensible.</li>
+            <li>It facilitates the users to write UI related function codes in minimum possible lines.</li>
+            <li>It improve ther performance of an application.</li>
+            <li>Browser's compatible web appliications can be developed.</li>
+            <li>It uses mostly new feature of new browsers.</li>
+        </ul>
+        <br>
+        so you can say that out of the lot of Javascript frameworks, jQuery is the most popular and the most extendable. Many of the biggest companies on the web use jQuery.
+        <br><br>
+
+        Some of these companies are:
+        <br>
+        <ul>
+            <li>Microsoft</li>
+            <li>Google</li>
+            <li>IBM</li>
+            <li>Netflix</li>
+        </ul>
+</p>
+
+
+    <script>
+        $(document).ready(function(){                           //this function is used to alert show.
+            alert("jQuery is working successfully");
+        });
+
+        $(document).ready(function(){                       //This function is used to change li background.
+            $("li").css("background-color","red")
+        });
+    </script>
+</body>
+</html>
